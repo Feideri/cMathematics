@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1485374222 source:/home/feideri/Ohjelmointi/C/codeblocks/cMathematics/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"matrix.h"
+	"misc.h"
+
+1485371727 /home/feideri/Ohjelmointi/C/codeblocks/cMathematics/mathlibs/matrix/matrix.h
+
+1485371949 source:/home/feideri/Ohjelmointi/C/codeblocks/cMathematics/mathlibs/matrix/matrix.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"matrix.h"
+
+1485372444 /home/feideri/Ohjelmointi/C/codeblocks/cMathematics/mathlibs/misc/misc.h
+
+1485375393 source:/home/feideri/Ohjelmointi/C/codeblocks/cMathematics/mathlibs/misc/misc.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"matrix.h"
+

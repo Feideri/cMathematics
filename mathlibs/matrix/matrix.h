@@ -2,8 +2,8 @@
 #define MATRIX_H_INCLUDED
 
 typedef struct{
-    int rows;
-    int cols;
+    unsigned int rows;
+    unsigned int cols;
     float **elements;
 
 }matrix;
@@ -14,7 +14,9 @@ matrix generateFixedMatrix(unsigned int rows, unsigned int cols);
 matrix generateMatrix();
 matrix generateIdentity(unsigned int n);
 void printMatrix(matrix m);
-matrix multiplication(matrix m1, matrix m2);
+matrix mulMat(matrix m1, matrix m2);
+matrix addMat(matrix m1, matrix m2);
+matrix subMat(matrix m1, matrix m2);
 matrix transpose(matrix m);
 void freeMatrix(matrix m);
 

@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "matrix.h"
+#include "misc.h"
 
 int main()
 {
@@ -19,14 +20,15 @@ int main()
     printMatrix(mat2);
 
 
-    matrix multiplied = multiplication(mat, mat2);
+    matrix subbed = subMat(mat, mat);
     printf("\n");
-    printMatrix(multiplied);
+    printMatrix(subbed);
 
     freeMatrix(mat);
     freeMatrix(mat2);
-    freeMatrix(multiplied);
+    freeMatrix(subbed);
 
+    printf("sqrt: = %f", sqroot(2));
 
     return 0;
 }
